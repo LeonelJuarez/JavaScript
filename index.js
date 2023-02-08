@@ -14,14 +14,16 @@ function agregar_carrito(e){
     let nombre_producto = datos.querySelector("h5").textContent;
     let precio_producto = datos.querySelector("p").textContent;
 
-    console.log(nombre_producto);
-    console.log(precio_producto);
 
     let producto = {
         nombre : nombre_producto,
         precio : precio_producto,
         cantidad : 1
     };
+    Toastify ({
+        text:"Producto Agregado al Carrito",
+        duration: 1500
+    }).showToast();
 
     mostrar_carrito(producto);
 }
@@ -33,7 +35,9 @@ function mostrar_carrito(producto){
 
     let fila = document.createElement("tr");
 
-    fila.innerHTML =    `<td> ${producto.nombre} </td>
+    fila.innerHTML =    `<td>  </td>
+                        <td>  </td>
+                        <td> ${producto.nombre} </td>
                         <td> ${producto.cantidad} </td>
                         <td> ${producto.precio}</td>
                         <td> <button class="btn btn-danger borrar">Borrar</button></td>
@@ -56,11 +60,21 @@ function mostrar_carrito(producto){
 
 function borrar(e){
     e.target.parentNode.parentNode.remove();
+    Toastify ({
+        text:"Producto Borrado del Carrito",
+        duration: 1500
+    }).showToast();
 }
 
 
 
-//BOTON COMPRA
+
+
+
+
+
+
+//BOTON COMPRA Captura
 
 let boton_compra = document.querySelectorAll (".btn_compra");
 
@@ -71,7 +85,13 @@ for (let boton of boton_compra){
     boton.addEventListener("click" , agregar_carrito);
 }
 
-//BOTON CARRITO
+
+
+
+
+
+
+//BOTON CARRITO Captura
 
 let btn_carrito = document.getElementById("mostrar_carrito");
 
@@ -84,5 +104,6 @@ btn_carrito.addEventListener("click", function(){
     }else{
         carrito.style.display = "block";
     }
+
 })
 
