@@ -1,7 +1,40 @@
-body {
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+body{
     background-color: black;
+}
+.fondo{
+    background-image: url(../img/fondo.jpg);
+    height: 100vh;
+}
+h2{
+    color: aliceblue;
+}
+ul{
+    list-style-type: none;   
+    border: 5px solid rgb(240, 245, 240);
+    padding: 30px;
+    color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+li{
     text-align: center;
+    display: inline-block;
+    padding: 30px;
+    margin-left: 50px;
 }
-h1, h2{
-    color: cyan;
+
+i{
+    color: white;
+    font-size: 50px;
+    
 }
+
