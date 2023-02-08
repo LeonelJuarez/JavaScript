@@ -16,21 +16,6 @@ body{
 h2{
     color: aliceblue;
 }
-ul{
-    list-style-type: none;   
-    border: 5px solid rgb(240, 245, 240);
-    padding: 30px;
-    color: white;
-    margin-left: 60px;
-    margin-right: 60px;
-}
-
-li{
-    text-align: center;
-    display: inline-block;
-    padding: 30px;
-    margin-left: 50px;
-}
 
 i{
     color: white;

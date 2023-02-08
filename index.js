@@ -56,7 +56,7 @@ function mostrar_carrito(producto){
 
 
 
-//BOTON BORRAR
+//BOTON BORRA
 
 function borrar(e){
     e.target.parentNode.parentNode.remove();
