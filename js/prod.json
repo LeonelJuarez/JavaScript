@@ -1,0 +1,93 @@
+[
+    {
+        "id":"celular-01",
+        "nombre":"A50",
+        "imagen":"./img/cel/A50.jpg",
+        "categoria":{
+                "nombre": "Celulares",
+                "id": "celulares"
+        },
+        "precio":80000
+},
+    {
+        "id":"celular-02",
+        "nombre":"A70",
+        "imagen":"./img/cel/A70.jpg",
+        "categoria":{
+                "nombre":"Celulares",
+                "id":"celulares"
+        },
+        "precio":95000
+},
+    {
+        "id":"celular-03",
+        "nombre":"E40",
+        "imagen":"./img/cel/E40.jpg",
+        "categoria":{
+                "nombre":"Celulares",
+                "id":"celulares"
+        },
+        "precio":85000
+},
+    {
+        "id":"bateria-01",
+        "nombre":"Bateria A50",
+        "imagen": "./img/bat/BatA50.jpg",
+        "categoria":{
+                "nombre":"Baterias",
+                "id":"baterias"
+        },
+        "precio":5000
+},
+    {
+        "id":"bateria-02",
+        "nombre":"Bateria A70",
+        "imagen":"./img/bat/BatA70.jpg",
+        "categoria":{
+                "nombre":"Baterias",
+                "id":"baterias"
+        },
+        "precio":6000
+},
+    {
+        "id":"bateria-03",
+        "nombre":"Bateria E40",
+        "imagen":"./img/bat/BatE40.jpg",
+        "categoria":{
+                "nombre":"Baterias",
+                "id":"baterias"
+        },
+        "precio":5500
+},
+    {
+        "id":"modulo-01",
+        "nombre":"Modulo A50",
+        "imagen":"./img/mod/moduloA50.jpg",
+        "categoria":{
+                "nombre":"Modulos",
+                "id":"modulos"
+        },
+        "precio":11000
+},
+    {
+        "id":"modulo-02",
+        "nombre":"Modulo A70",
+        "imagen":"./img/mod/moduloA70.jpg",
+        "categoria":{
+                "nombre":"Modulos",
+                "id":"modulos"
+        },
+        "precio": 15000
+},
+    {
+        "id":"modulo-03",
+        "nombre":"Modulo E40",
+        "imagen":"./img/mod/moduloE40.jpg",
+        "categoria":{
+                "nombre":"Modulos",
+                "id":"modulos"
+        },
+        "precio":13000
+}
+
+]

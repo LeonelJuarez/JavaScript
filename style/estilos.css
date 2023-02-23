@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Phudu', cursive;
+}
+ul{
+    list-style-type: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+.fondo{
+    background-image: url(../img/fondo.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+
+}
+
+
+.container{
+    background-color: white;
+}
+
+aside{
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    max-width: 100%;
+}
+
+.menu{
+    display: flex;
+    gap: 4rem;
+}
+
+.btn_menu, .btn_volver{
+    padding: 1rem;
+    background-color: transparent;
+    border: 0;
+    font-size: 1.5rem;
+    color:white;
+    cursor: pointer;
+    display: flex;
+    gap: 0.35rem;
+
+}
+
+.btn_carrito{
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/*.btn_menu.active{
+
+}*/
+
+.numero{
+    background-color: white;
+    color: black;
+    padding: 0.20rem;
+    border-radius: 0.20rem;
+}
+
+.bi-hand-index-fill, .bi-hand-index{
+    transform: rotateZ(90deg);
+}
+footer{
+    padding: 5rem;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+}
+.txt_footer{
+    color: white;
+    font-size: .85rem;
+}
+
+main{
+    margin: 1rem;
+    border-radius: 2rem;
+    padding: 3rem;
+}
+
+.titulo{
+    
+    margin-bottom: 2rem;
+}
+
+.contenedor_productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    
+}
+
+.producto{
+    
+    box-shadow: 1.25px 1.25px 10px black;
+    border-radius: .50rem;
+    padding: 2rem;
+    
+}
+
+.producto_imagen{
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.producto_detalles {
+    background-color: white;
+    color: black;
+    padding: .75rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin-top: -1.25rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 1rem;
+}
+
+/*.producto_titulo{
+
+}*/
+.producto_agregar{
+    border: 0;
+    background-color: rgb(0, 30, 128);
+    padding: .35rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid black;
+
+}
+
+
+/**********************************/
+/**********CARRITO***************/
+
+
+.contenedor_carrito{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    /*AGREGADOOO*/
+    height: 55vh;
+    
+}
+
+.carrito_vacio{
+    color:rgb(184, 21, 15);
+   
+}
+
+.carrito_productos{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.carrito_producto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    color: rgb(184, 21, 15);
+    padding: 0.5rem;
+    padding-right: 1rem;
+    border-radius: 1rem ;
+}
+
+.carrito_producto_imagen{
+    width: 4rem;
+    border-radius: 1rem;
+}
+
+.carrito_producto small{
+    font-size:  1rem;
+}
+
+
+.carrito_producto_eliminar{
+    border: 0;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+}
+
+.carrito_acciones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrito_acciones_vaciar{
+    border: 0;
+    background-color: aliceblue;
+    color: black;
+    padding: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.carrito_acciones_der{
+    display: flex;
+}
+
+.carrito_acciones_total{
+    display: flex;
+    background-color: aliceblue;
+    color: black;
+    padding: 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    
+}
+.carrito_acciones_comprar{
+    border: 0;
+    background-color: red;
+    color: black;
+    padding: 1rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    cursor: pointer;
+}
+
+.disabled {
+    display: none;
+}
