@@ -156,7 +156,8 @@ main{
     padding: .35rem;
     border-radius: 2rem;
     cursor: pointer;
-    border: 2px solid black;
+    color: white;
+    
 
 }
 
@@ -243,8 +244,8 @@ main{
 }
 .carrito_acciones_comprar{
     border: 0;
-    background-color: red;
-    color: black;
+    background-color: rgb(0, 30, 128);
+    color: white;
     padding: 1rem;
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
