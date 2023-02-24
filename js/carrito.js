@@ -38,11 +38,11 @@ if(productosEnCarrito && productosEnCarrito.length>0){
     </div>
     <div class="carrito_producto_precio">
         <small>Precio</small>
-        <p>${producto.precio}</p>
+        <p>$${producto.precio}</p>
     </div>
     <div class="carrito_producto_subtotal">
         <small>Subtotal</small>
-        <p>${producto.precio * producto.cantidad}</p>
+        <p>$${producto.precio * producto.cantidad}</p>
     </div>
     <button class="carrito_producto_eliminar" 
     id=${producto.id}><i class="bi bi-trash"></i></button>`;

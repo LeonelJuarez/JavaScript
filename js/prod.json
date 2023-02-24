@@ -88,6 +88,64 @@
                 "id":"modulos"
         },
         "precio":13000
+},
+    {
+        "id":"celular-04",
+        "nombre":"IPHONE 11",
+        "imagen":"./img/cel/Iphone11.jpg",
+        "categoria":{
+                "nombre":"Celulares",
+                "id":"celulares"
+        },
+        "precio":350000
+},
+    {
+        "id":"celular-05",
+        "nombre":"IPHONE 12",
+        "imagen":"./img/cel/Iphone12.jpg",
+        "categoria":{
+                "nombre":"Celulares",
+                "id":"celulares"
+        },
+        "precio":450000
+},{
+        "id":"celular-06",
+        "nombre":"IPHONE 13",
+        "imagen":"./img/cel/Iphone13.jpg",
+        "categoria":{
+                "nombre":"Celulares",
+                "id":"celulares"
+        },
+        "precio":550000
+},{
+        "id":"modulo-04",
+        "nombre":"Modulo Iphone 11",
+        "imagen":"./img/mod/moduloI11.jpg",
+        "categoria":{
+                "nombre":"Modulos",
+                "id":"modulos"
+        },
+        "precio":55000
+},
+{
+        "id":"modulo-05",
+        "nombre":"Modulo Iphone 12",
+        "imagen":"./img/mod/moduloI12.jpg",
+        "categoria":{
+                "nombre":"Modulos",
+                "id":"modulos"
+        },
+        "precio":50000
+},
+{
+        "id":"modulo-06",
+        "nombre":"Modulo Iphone 10",
+        "imagen":"./img/mod/moduloI10.jpg",
+        "categoria":{
+                "nombre":"Modulos",
+                "id":"modulos"
+        },
+        "precio":45000
 }
 
 ]

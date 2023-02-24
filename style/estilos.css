@@ -108,22 +108,28 @@ main{
 }
 
 .contenedor_productos{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*grid-template-columns: repeat(4, 1fr);*/
+    gap: 5rem;
     
 }
 
 .producto{
-    
+    width: 350px;
     box-shadow: 1.25px 1.25px 10px black;
     border-radius: .50rem;
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    /*padding: 8rem;*/
     
 }
 
 .producto_imagen{
-    max-width: 100%;
+    max-width: 90%;
     border-radius: 1rem;
 }
 

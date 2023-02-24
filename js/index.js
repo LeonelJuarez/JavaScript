@@ -1,4 +1,4 @@
-const productos = [
+/*const productos = [
     {
         id:"celular-01",
         nombre:"A50",
@@ -88,17 +88,18 @@ const productos = [
                 id:"modulos"
         },
         precio:13000
-}]
+}]*/
 
+//JSON LOCAL
 
-/*let productos = [];
+let productos = [];
 
 fetch ("./js/prod.json")
 .then(response => response.json())
 .then(data => {
         productos = data;
         cargaProductos(productos);
-})*/
+})
 
 const contenedorProductos = document.querySelector("#contenedor_productos");
 const botonesCategorias = document.querySelectorAll(".btn_categoria");
@@ -114,10 +115,10 @@ function cargaProductos(elegido){
                 const div = document.createElement("div");
                 div.classList.add("producto");
                 div.innerHTML = `
-                 <img class="producto_imagen" src=${producto.imagen} alt= ${producto.nombre}>
+                <img class="producto_imagen" src=${producto.imagen} alt= ${producto.nombre}>
                 <div class="producto_detalles">
                     <h3 class="producto_titulo">${producto.nombre} </h3>
-                    <p class="producto_precio">${producto.precio} </p>
+                    <p class="producto_precio">$ ${producto.precio} </p>
                     <button class="producto_agregar" id=${producto.id}>AGREGAR AL  CARRITO</button>
                 </div> `;
 
